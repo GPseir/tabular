@@ -1,0 +1,94 @@
+.log {
+    font-family: sans-serif;
+}
+
+.login {
+    display: block;
+    margin: auto;
+}
+
+.logout {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 22px;
+}
+
+.logged {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: rgb(22, 107, 133);
+    font-weight: bold;
+}
+
+#logged {
+    color: rgb(184, 44, 121);
+}
+
+h2 {
+    margin-top: 77px;
+    text-align: center;
+    color: rgb(22, 107, 133);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(184, 44, 121);
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+}
+
+label {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 22px;
+    color: rgb(22, 107, 133);
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #777;
+}
+
+input.error {
+    border-color: rgb(201, 21, 21);
+}
+
+.input-feedback {
+    color: rgb(201, 21, 21);
+    margin-top: -15px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgb(26, 125, 155);
+    color: white;
+    border: 1px solid rgb(26, 125, 155);
+    background-color: 250ms;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(26, 125, 155);
+}

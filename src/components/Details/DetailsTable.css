@@ -1,0 +1,58 @@
+.goBack {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.dheader {
+    margin-top: 5%;
+    padding: 1px 1px;
+    border: 2px solid #ddd;
+    background: rgb(12, 62, 77);
+    color: white;
+    margin-left: -3px;
+    width: 100%;
+    min-width: 1039px;
+}
+
+.dtable {
+    margin-left: 40px;
+    margin-right: 40px;
+    min-width: 1039px;
+}
+
+#dtitle {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+#dusers {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+}
+
+#dusers td,
+#dusers th {
+    border: 1px solid rgb(199, 199, 199);
+    padding: 22px;
+}
+
+#dusers tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+#dusers tr:nth-child(odd) {
+    background-color: #e2e2e2;
+}
+
+#dusers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(22, 107, 133);
+    color: white;
+}
